@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #333;
+}
+* {
+    font-family: sans-serif;
+}
+.conteneur {
+    width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0;
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    min-height: 140px;
+    color: white;
+}
+nav {
+    background-color: steelblue;
+    display: flex;
+}
+nav a {
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover { 
+    background-color: red;
+}
+section {
+    min-height: 500px;
+    background-color: white;
+    text-align: justify;
+}
+footer {
+    padding-top: 20px;
+    color: white;
+}

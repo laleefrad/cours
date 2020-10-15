@@ -1,0 +1,11 @@
+body {
+    padding-top: 5rem;
+}
+
+
+.bg-Indigo {
+    background-color: indigo;
+}
+.bg-Indigo a { 
+    color: white !important;
+}

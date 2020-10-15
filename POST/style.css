@@ -1,0 +1,15 @@
+* { font-family: sans-serif; box-sizing: border-box; }
+body { margin: 0; }
+.conteneur { width: 1000px; margin: 0 auto; border: 1px solid #dedede; padding: 20px; }
+form { width: 50%; margin: 0 auto; border: 1px solid #dedede; padding: 20px; }
+input, textarea, select { width: 100%; border: 1px solid #dedede; }
+input, select { min-height: 30px; }
+h1 { padding: 20px; color: white; background-color: darkslategray; }
+
+.erreur {
+    padding: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
